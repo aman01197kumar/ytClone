@@ -1,0 +1,242 @@
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .sidebar {
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+
+      .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 15;
+      }
+
+      .sidebar a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 100px;
+      }
+
+      @media screen and (max-width: 700px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        .sidebar a {
+          float: left;
+        }
+        div.content {
+          margin-left: 0;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+          text-align: center;
+          float: none;
+        }
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 186px;
+        width: 281px;
+        column-gap: 50px;
+      }
+      .grid-item {
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+      }
+      .tag {
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+      }
+      i {
+        margin-right: 10px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      form.example input[type="text"] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid;
+        float: left;
+        width: 80%;
+      }
+
+      form.example button {
+        float: left;
+        width: 10%;
+        padding: 11.5px;
+        background: rgb(236, 230, 230);
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+      }
+
+      form.example button:hover {
+        background: rgb(141, 108, 108);
+      }
+
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 1cm;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body style="position: absolute">
+    <div class="upper-bar">
+      <div>
+        <nav>
+          <a
+            href="www.youtube.com"
+            style="font-size: 25px; text-decoration: none; color: black"
+            ><img src="yt.webp" height="15" width="30" /><b>YouTube</b></a
+          >
+        </nav>
+      </div>
+      <div>
+        <form
+          class="example"
+          style="
+            margin: auto;
+            max-width: 45%;
+            position: relative;
+            top: -29px;
+            width: 1280px;
+            height: 43px;
+          "
+        >
+          <input type="text" placeholder="Search.." name="search2" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="sidebar" style="width: 166px">
+      <a href="#"><i class="fa fa-home" style="margin-right: 10px"></i>home</a>
+      <a href="#"><i class="far fa-compass"></i>explore</a>
+      <a href="#"><i class="far fa-bell"></i>subcription</a>
+      <a href="#"><i class="fas fa-book"></i>library</a>
+      <a href="#"><i class="fas fa-clock"></i>history</a>
+      <a href="#"><i class="fab fa-youtube"></i>Your videos</a>
+      <a href="#"><i class="far fa-calendar-alt"></i>watch later</a>
+      <a href="#"><i class="fas fa-play"></i>shorts</a>
+    </div>
+    <div
+      class="b1221"
+      style="left: 175px; position: relative; padding: 2px; border-radius: 50%"
+    >
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+      <button>11</button>
+    </div>
+    <div
+      class="grid-container"
+      style="
+        width: 80%;
+        left: 60px;
+        position: relative;
+        left: 176px;
+        padding: 10px;
+      "
+    >
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+
+      <div>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <p>fkdkcd</p>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
